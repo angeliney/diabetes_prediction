@@ -1,13 +1,13 @@
 library("foreach")
 library("dplyr")
-source('/home/diabetes_prediction/R/functions.R')
-source('/home/diabetes_prediction/R/features.R')
+source('./R/functions.R')
+source('./R/features.R')
 
 
 args = commandArgs(TRUE)
 output = as.character(args[1])
 
-df = readRDS("/home/diabetes_prediction/local_formatted_filtered.rds")
+df = readRDS("./local_formatted_filtered.rds")
 
 test_types_all_visits = c("mlm", "coxph", "coxphtime", "aft", "glmnetcox", "rfsrc")
 test_types_single_visit = c("glm", "glmnet", "coxph", "aft", "glmnetcox", "rfsrc" )

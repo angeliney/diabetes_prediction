@@ -12,7 +12,6 @@ eq_train_ratio=T
 cross_vals_fold=5
 cutoff=T
 
-cd /home/diabetes_prediction
 mkdir output
 mkdir output/oe
 for include_ethdon in ${booleans[@]}; do

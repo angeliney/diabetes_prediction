@@ -15,7 +15,7 @@ train_thresh_year = as.numeric(args[9]) # Only use data transplant_year >= train
 cutoff_visit = as.logical(args[10]) # For training data, only use visits before 2011
 
 commandArgs = function(...) c(include_lab, include_ethdon, num_lag, eq_train_ratio, train_thresh_year, cutoff_visit)
-source("/home/diabetes_prediction/prep_exp.R")
+source("./R/prep_exp.R")
 
 # Columns used
 if (is_survival(test_type)) {

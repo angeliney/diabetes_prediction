@@ -1,8 +1,8 @@
 library(dplyr)
 library(data.table)
 
-source('/home/diabetes_prediction/functions.R')
-source('/home/diabetes_prediction/features.R') # Get features list
+source('./R/functions.R')
+source('./R/features.R') # Get features list
 
 args = commandArgs(TRUE)
 include_lab = as.logical(args[1]) # Include lab measurement?

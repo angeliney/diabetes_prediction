@@ -9,9 +9,8 @@ include_lab=T
 cross_vals_fold=5
 eq_train_ratio=T
 cutoff=T
-file_dir='/home/diabetes_prediction'
+file_dir=$PWD
 
-cd /home/diabetes_prediction
 mkdir output
 for include_ethdon in ${booleans[@]}; do
     for visit_type in ${visit_types[@]}; do
