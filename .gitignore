@@ -1,0 +1,14 @@
+
+local_formatted_filtered.rds
+.idea/diabetes_prediction.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.ipynb_checkpoints/plots-checkpoint.ipynb
+local_perf_merf.txt
+local_perf_merf.txte
+local_perf_R.csv
+performance.csv
+tx_li_formatted.rds
+txf_li_formatted.rds
